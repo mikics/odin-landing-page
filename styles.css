@@ -28,6 +28,8 @@ body {
     font-weight: extra-bold;
     color: #f9faf8;
 }
+
+
 .footer {
     background-color: #1f2937;
 }
@@ -40,8 +42,17 @@ ul {
     gap: 32px;
 }
 
-a {
+.hero-secondary {
     text-decoration: none;
     font-size: 18px;
     color: #e5e7eb;
+}
+
+.content {
+    display: flex;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
 }
