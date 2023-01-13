@@ -50,9 +50,23 @@ ul {
 
 .content {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    flex-wrap: wrap;
 }
 
-img {
-    max-width: 100%;
-    height: auto;
+.left {
+    flex: 1 1 0;
+}
+.right {
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 32.16px;
+    padding: 12px;
+    margin-bottom: 18px;
+    flex: 1 1 0;
 }
